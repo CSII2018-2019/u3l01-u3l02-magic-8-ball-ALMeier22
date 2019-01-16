@@ -52,6 +52,8 @@ public class EightBall extends JFrame {
 		
 		JTextField question = new JTextField();
 		question.setPreferredSize(new Dimension(800,80));
+		Font textfount = new Font (Font.SERIF, Font.BOLD + Font.ITALIC, 30);
+		question.setFont(textfount);
 		question.setHorizontalAlignment(JTextField.CENTER);
 		add(question,BorderLayout.PAGE_START);
 		
